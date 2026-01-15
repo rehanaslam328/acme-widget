@@ -1,7 +1,7 @@
 import { useReducer, type ReactNode } from "react";
-import { Basket } from "../basket/Basket";
-import { PRODUCTS, DELIVERY_RULES, OFFERS } from "../basket/config";
-import { BasketContext, type State, type Action } from "./createBasketContext";
+import { Basket } from "@/basket/Basket";
+import { PRODUCTS, DELIVERY_RULES, OFFERS } from "@/basket/config";
+import { BasketContext, type State, type Action } from "@/context/createBasketContext";
 
 const initialState: State = { items: [] };
 

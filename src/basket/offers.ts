@@ -1,4 +1,4 @@
-import { type Offer } from "./Basket.js";
+import { type Offer } from "@/basket/Basket";
 
 export const buyOneGetSecondHalfPrice =
   (productCode: string): Offer =>

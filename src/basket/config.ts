@@ -1,5 +1,5 @@
-import { type Product, type DeliveryRule } from "./Basket.js";
-import { buyOneGetSecondHalfPrice } from "./offers.js";
+import { type Product, type DeliveryRule } from "@/basket/Basket";
+import { buyOneGetSecondHalfPrice } from "@/basket/offers";
 
 export const PRODUCTS: Record<string, Product> = {
   R01: { code: "R01", name: "Red Widget", price: 32.95 },

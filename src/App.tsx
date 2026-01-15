@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { BasketContext } from "./context/createBasketContext";
-import { PRODUCTS } from "./basket/config";
+import { BasketContext } from "@/context/createBasketContext";
+import { PRODUCTS } from "@/basket/config";
 import "./App.css";
 
 export default function App() {
