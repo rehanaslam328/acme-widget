@@ -45,10 +45,6 @@ This project demonstrates a production-ready shopping basket system built with *
   - Single source of truth for business data
   - Easy to update prices or rules without touching logic
 
-#### [Basket.test.ts](src/basket/Basket.test.ts) – Test Cases
-- Validates all four required totals
-- Demonstrates the pricing engine works correctly
-
 ---
 
 ### 💾 State Management
