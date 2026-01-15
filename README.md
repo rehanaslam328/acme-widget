@@ -147,11 +147,6 @@ npm run dev
 
 Then open http://localhost:5173 in your browser.
 
-### Running Tests
-```bash
-npm run test
-```
-
 ---
 
 ## Code Quality Highlights
